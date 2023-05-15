@@ -82,7 +82,7 @@ async function main() {
       }
   
       await client.connect();
-      fs.appendFile(`log/${mode}-${network}-payxrp.csv`, 'Timestamp,AmountSent,DestinaionAddress,Fee,Hash\n', (err) => {
+      fs.appendFile(`log/${mode}-${network}-payxrp.csv`, 'Timestamp,AmountSent,DestinationAddress,Fee,Hash\n', (err) => {
         if (err) throw err;
       })
   
