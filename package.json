@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "csv-parse": "^5.3.10",
+    "dotenv": "^16.0.3",
+    "log-timestamp": "^0.3.0",
+    "xrpl": "^2.7.0"
+  },
+  "name": "xrp-bulk-payments",
+  "description": "Testnet Servers // WebSocket wss://s.altnet.rippletest.net:51233/",
+  "version": "1.0.0",
+  "main": "bulk-payments.sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/go140point6/xrp-bulk-payments.git"
+  },
+  "keywords": [
+    "xrpl",
+    "xrp",
+    "bulk",
+    "payments"
+  ],
+  "author": "go140point6",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/go140point6/xrp-bulk-payments/issues"
+  },
+  "homepage": "https://github.com/go140point6/xrp-bulk-payments#readme"
+}
