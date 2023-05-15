@@ -47,4 +47,4 @@ To run:
 
 Simulation - Run entire sequence only omitting the "client.submitAndWait(signed.tx_blob)" process. Review output and .csv to see what final output will be.
 
-Payment - The real deal.  Run on testnet with the provided testnet addresses or your own.
+Payment - The real deal.  Run on testnet with the provided testnet addresses or your own. When ready, ensure the data/addresses.csv contains the real addresses you want to pay.
