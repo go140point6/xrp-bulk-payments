@@ -130,3 +130,5 @@ dist
 .pnp.*
 data/mainnet-addresses.csv
 data/testnet-addresses.csv
+log/payment-*.csv
+log/simulation-*.csv

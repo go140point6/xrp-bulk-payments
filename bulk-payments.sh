@@ -1,6 +1,7 @@
 #!/bin/bash
 
 xrp_amount=$(sed -n '2{p;q}' .env)
+pay_memo=$(sed -n '8{p;q}' .env)
 
 while getopts n:m: flag
 do
@@ -23,7 +24,10 @@ elif [[ $mode == simulation ]]; then
     exit 0
 elif [[ $mode == payment ]]; then
     echo "Running PAYMENT against $network, this will make a real payment(s)!"
+    echo "****"
     echo "Currently the .env file is configured to send $xrp_amount for each payment... be sure that is what you expect!"
+    echo "Currently the .env file is configured to send $pay_memo for each payment... be sure that is what you expect!"
+    echo "****"
     read -r -p "Are you sure you want to continue? [y/N] " response
     response=${response,,} # tolower
     if [[ "$response" =~ ^(yes|y)$ ]]; then
