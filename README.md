@@ -40,8 +40,8 @@ To run:
 ./bulk-payments.sh -n [network] -m [mode]
 
 ./bulk-payments -n testnet -m simulation
-./bulk-payments -n mainnet -m payment
-./bulk-payments -n testnet -m simulation
+./bulk-payments -n mainnet -m simulation
+./bulk-payments -n testnet -m payment
 ./bulk-payments -n mainnet -m payment
 ```
 
